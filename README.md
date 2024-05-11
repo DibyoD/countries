@@ -1,16 +1,22 @@
-# countries
+# countries App
 
-A new Flutter project.
+This Flutter application fetches and displays information about countries from the REST Countries API. It categorizes countries into continents and allows you to view country details.
 
-## Getting Started
+## Instructions
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+Make sure you have Flutter installed on your machine. You can follow the official Flutter installation guide [here](https://flutter.dev/docs/get-started/install).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Getting Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/country_info_app.git
+
+cd country_info_app
+
+flutter pub get
+
+flutter run
